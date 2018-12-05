@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "prettier", "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "consistent-return": "off",
+    "no-debugger": "off",
+    "prettier/prettier": "error",
+    "singleQuote": true
+  },
+  "plugins": ["prettier"]
+}

@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "loose": true
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
+  "compact": false,
+  "plugins": [
+    "transform-decorators-legacy",
+    "react-hot-loader/babel",
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}
